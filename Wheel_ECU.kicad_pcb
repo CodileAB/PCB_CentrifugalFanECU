@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 5)
+    (drawings 3)
     (tracks 440)
     (zones 0)
     (modules 57)
@@ -1849,8 +1849,6 @@
   )
 
   (gr_circle (center 131.8 98.4) (end 162.3 98.5) (layer Edge.Cuts) (width 0.15))
-  (gr_circle (center 131.8 98.4) (end 141.8005 98.4) (layer F.SilkS) (width 2) (tstamp 5D0965CA))
-  (gr_circle (center 131.8 98.4) (end 141.8 98.5) (layer B.SilkS) (width 2))
   (dimension 61 (width 0.3) (layer Dwgs.User)
     (gr_text 61,000mm (at 131.8 58.15) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
