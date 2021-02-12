@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "ECU for the Wolley Standard Wheel"
-Date "2019-06-16"
-Rev "1.1"
-Comp "Codile AB"
+Title "ECU for the Wolley Centrifugal Fan"
+Date "2021-02-12"
+Rev "1.0"
+Comp "Knekt Technologies AB"
 Comment1 ""
 Comment2 ""
 Comment3 ""

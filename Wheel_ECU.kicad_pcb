@@ -11,10 +11,10 @@
 
   (page A4)
   (title_block
-    (title "ECU for Wolley Standard Wheel")
-    (date 2018-12-09)
+    (title "ECU for Wolley Centrifugal Fan")
+    (date 2021-02-12)
     (rev 1.0)
-    (company "Codile AB")
+    (company "Knekt Technologies AB")
   )
 
   (layers
