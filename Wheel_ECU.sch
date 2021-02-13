@@ -63,7 +63,7 @@ U 1 1 5BFAD8F5
 P 4700 2500
 F 0 "J3" H 4700 2600 50  0000 C CNN
 F 1 "Conn_01x02" H 4700 2300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm_SMD" H 4700 2500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4700 2500 50  0001 C CNN
 F 3 "" H 4700 2500 50  0001 C CNN
 	1    4700 2500
 	1    0    0    -1  
