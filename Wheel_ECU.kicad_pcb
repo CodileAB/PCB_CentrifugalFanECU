@@ -2073,8 +2073,8 @@
     (arrow2a (pts (xy 101.3 59.5) (xy 102.426504 60.086421)))
     (arrow2b (pts (xy 101.3 59.5) (xy 102.426504 58.913579)))
   )
-  (gr_text "Version 1.0" (at 114.3 111.76 45) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (gr_text "Centrifugal Fan ECU\nVersion 1.0" (at 119.3 119.2 135) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
 
   (segment (start 154.392103 107.792103) (end 154.392103 89.907897) (width 1) (layer B.Cu) (net 1))
