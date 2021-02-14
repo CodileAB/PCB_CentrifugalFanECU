@@ -607,7 +607,6 @@ F 3 "" H 1350 1500 50  0001 C CNN
 $EndComp
 NoConn ~ 2500 4500
 NoConn ~ 2500 4600
-NoConn ~ 2500 4700
 NoConn ~ 2500 5100
 NoConn ~ 2500 5200
 NoConn ~ 2500 5300
@@ -1013,4 +1012,51 @@ Wire Wire Line
 Connection ~ 6850 4900
 Wire Wire Line
 	6850 4900 6850 4700
+$Comp
+L Wheel_ECU-rescue:+5V #PWR025
+U 1 1 6034D88D
+P 850 2750
+F 0 "#PWR025" H 850 2600 50  0001 C CNN
+F 1 "+5V" H 850 2890 50  0000 C CNN
+F 2 "" H 850 2750 50  0001 C CNN
+F 3 "" H 850 2750 50  0001 C CNN
+	1    850  2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 6034E48A
+P 1550 2900
+F 0 "D3" H 1543 2645 50  0000 C CNN
+F 1 "LED" H 1543 2736 50  0000 C CNN
+F 2 "WheelECU:C_0805_HandSoldering" H 1550 2900 50  0001 C CNN
+F 3 "~" H 1550 2900 50  0001 C CNN
+	1    1550 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6035C8A5
+P 1150 2900
+F 0 "R1" V 943 2900 50  0000 C CNN
+F 1 "R" V 1034 2900 50  0000 C CNN
+F 2 "WheelECU:C_0805_HandSoldering" V 1080 2900 50  0001 C CNN
+F 3 "~" H 1150 2900 50  0001 C CNN
+	1    1150 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	850  2750 850  2900
+Wire Wire Line
+	850  2900 1000 2900
+Wire Wire Line
+	1300 2900 1400 2900
+Text GLabel 1850 2900 2    60   Input ~ 0
+STATUS_LED
+Wire Wire Line
+	1700 2900 1850 2900
+Text GLabel 2100 4700 0    60   Output ~ 0
+STATUS_LED
+Wire Wire Line
+	2500 4700 2100 4700
 $EndSCHEMATC
