@@ -1,9 +1,9 @@
-ECU for the Standard Wheel Module
-=================================
+ECU for the Centrifugal Fan Module
+==================================
 
-This is the KiCad project for the ECU for the wheel/gearbox/motor unit.
+This is the KiCad project for the ECU for the Centrifugal Fan module.
 
-![PCB rendered in KiCad](Wheel_ECU.png)
+![PCB rendered in KiCad](ECU.png)
 
 Licence
 -------
